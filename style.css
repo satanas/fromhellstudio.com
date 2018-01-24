@@ -94,3 +94,34 @@ header nav li:last-child {
   margin: 6vw 17%;
   text-align: center;
 }
+.gallery ul {
+  background: #191919;
+  color: #efefef;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-gap: 2rem;
+  list-style: none;
+}
+.gallery ul li {
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.gallery ul li h2 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  z-index: 1;
+}
+.gallery ul li img {
+  width: 100%;
+  grid-column: 1 / 4;
+  grid-row: 1 / 5;
+}
+.gallery ul li p {
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  z-index: 1;
+}
