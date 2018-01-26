@@ -11,6 +11,8 @@ html {
 body {
   margin: 2vw auto;
   text-align: center;
+  background: linear-gradient(gray, black);
+  color: white;
 }
 h1 {
   line-height: 1.2;
@@ -94,8 +96,26 @@ header nav li:last-child {
   margin: 6vw 17%;
   text-align: center;
 }
+input[name="email"] {
+  border-radius: 3px;
+  border: 1px solid;
+  color: white;
+  background: black;
+  padding: 0.75rem 2rem;
+  font-size: 1vw;
+  min-width: 280px;
+  margin-right: 10px;
+}
+input[name="subscribe"] {
+  padding: 0.75rem 2rem;
+  min-width: 180px;
+  color: white;
+  background-color: #c30e1f;
+  border-radius: 3px;
+  font-size: 1vw;
+}
 .gallery ul {
-  background: #191919;
+  /*background: #191919;*/
   color: #efefef;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
