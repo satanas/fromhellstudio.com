@@ -9,9 +9,9 @@ html {
   text-size-adjust: 100%;
 }
 body {
-  margin: 2vw auto;
+  margin: 2vw 0 0 0;
   text-align: center;
-  background: linear-gradient(gray, black);
+  background: linear-gradient(180deg, gray, black 60%, black);
   color: white;
 }
 h1 {
@@ -101,7 +101,7 @@ input[name="email"] {
   border: 1px solid;
   color: white;
   background: black;
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 1rem;
   font-size: 1vw;
   min-width: 280px;
   margin-right: 10px;
@@ -168,4 +168,12 @@ input[name="subscribe"] {
   color: #333;
 }
 .gallery ul li div.links {
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer img {
+  width: 100%;
+  flex-grow: 1;
 }
