@@ -91,10 +91,13 @@ header nav li:last-child {
   */
 }
 .hero p {
-  font-size: calc(0.75rem + 1vw);
+  font-size: calc(1rem + 1vw);
   line-height: 1.5;
-  margin: 6vw 17%;
+  margin: 3rem 1rem;
   text-align: center;
+}
+.subscribe p {
+  font-size: 0.85rem;
 }
 input[name="email"] {
   border-radius: 3px;
@@ -102,7 +105,7 @@ input[name="email"] {
   color: white;
   background: black;
   padding: 0.75rem 1rem;
-  font-size: 1vw;
+  font-size: 1rem;
   min-width: 280px;
   margin-right: 10px;
 }
@@ -112,62 +115,53 @@ input[name="subscribe"] {
   color: white;
   background-color: #c30e1f;
   border-radius: 3px;
-  font-size: 1vw;
+  font-size: 1rem;
 }
-.gallery ul {
-  /*background: #191919;*/
-  color: #efefef;
+h2.title {
+  font-size: calc(2.2rem + 3vw);
+  line-height: 1.5;
+  margin: 3rem 0 2rem;
+}
+.gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 2rem;
-  list-style: none;
-  padding: 2rem;
+  padding: 0 1rem;
 }
-.gallery ul li {
+.gallery .item {
+  display: flex;
   border: 1px solid white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  justify-content: stretch;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+}
+.gallery .item h2 {
+  background: #c30e1f;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+}
+.gallery .item img {
+  margin: 0;
+  max-height: 100%;
   align-items: center;
 }
-.gallery ul li h2 {
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
-  z-index: 1;
-  align-self: start;
-  /*display: none;*/
-}
-.gallery ul li:hover h2 {
-  display: block;
-}
-.gallery ul li img {
-  width: 100%;
-  grid-column: 1 / 4;
-  grid-row: 1 / 3;
-}
-.gallery ul li div.info {
-  width: 100%;
-  height: 100%;
-  grid-column: 1 / 4;
-  grid-row: 3 / 4;
-  background: white;
-  justify-self: left;
-  align-self: start;
+.gallery .item .info {
+  background: #3a3a3a;
   text-align: left;
   padding: 1rem;
   font-weight: 300;
+  color: white;
+  border-radius: 0 0 5px 5px;
 }
-.gallery ul li div.info p.label {
+.gallery .item .info p.label {
   margin: 0;
-  color: gray;
   font-size: 0.8125em;
 }
-.gallery ul li div.info p.summary {
+.gallery .item .info p.summary {
   font-size: 1em;
-  color: #333;
-}
-.gallery ul li div.links {
 }
 footer {
   display: flex;
