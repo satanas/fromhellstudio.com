@@ -27,6 +27,7 @@ header {
   margin-left: 5vw;
   margin-right: 5vw;
   text-transform: uppercase;
+  display: none;
 }
 header h1 {
   margin: 0 0 0 0.5em;
@@ -35,7 +36,8 @@ header h1 {
 }
 @media (min-width: 500px) {
   header {
-    display: flex;
+    /*display: flex;*/
+    display: none;
     justify-content: space-between;
     align-items: center;
   }
@@ -118,9 +120,11 @@ h2.title {
   font-family: 'Nosifer', cursive;
   line-height: 1.5;
   margin: 3rem 0 2rem;
+  display: none;
 }
 .gallery {
-  display: grid;
+  /*display: grid;*/
+  display: none;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 2rem;
   padding: 0 1rem;
