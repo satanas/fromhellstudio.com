@@ -2,81 +2,182 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>From Hell Studio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.png">
+
+    <title>Album example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="warning"></div>
 
-    <header role="banner">
-      <h1>From Hell Studio</h1>
-      <nav role="navigation">
-        <ul>
-          <li></li>
-        </ul>
-      </nav>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">I'm a software engineer. I make games and also build software.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                <li><a href="#" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>From Hell Studio</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
     </header>
+    
+     <div class="container">
+          <div class="row">
+              <div class="ez_header"><img alt="logo" class="ezlogo" src="images/logo.png" /></div>
+          </div>
+      </div>
 
     <main role="main">
-      <section class="hero">
-        <img src="site-logo.png" alt="this is a hero graphic">
+      
+     
 
-        <p>Join us for a ride to explore new things under the shadow of darkness, making games
-        that fulfill dreams and convey a message. Our goal it's not about making hollow and silly games but about
-        combining several ingredients to make games that can help you endure the already-hard life.</p>
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Welcome </h1>
+          <p class="lead text-muted">Join us for a ride to explore new things under the shadow of darkness, making games that fulfill dreams and convey a message. Our goal it's not about making hollow and silly games but about combining several ingredients to make games that can help you endure the already-hard life.</p>
+         
+           <section class="subscribe">
+                <p class="ez_text-muted">Subscribe to our mailing list if you want to know more.</p>
+                <input type="text" name="email" placeholder="Enter email address"/>
+                <input class="btn" type="submit" name="subscribe" value="I want to know more!"/>
+            </section>
+        </div>
       </section>
 
-      <section class="subscribe">
-        <p>Subscribe to our mailing list if you want to know more.</p>
-        <input type="text" name="email" placeholder="Enter email address"/>
-        <input type="button" name="subscribe" value="I want to know more!"/>
-      </section>
+      
+        <div class="container">
 
-      <h2 class="title">Our work</h2>
-      <section class="gallery">
-
-        <div class="item">
-          <h2>Blah</h2>
-          <img src="http://labs.jensimmons.com/2016/examples/images/uniqueicons/book.png" alt="image of a book">
-          <div class="info">
-            <p class="label"><b>Genre:</b> Casual, tap reaction</p>
-            <p class="label"><b>Released:</b> Dec 30th, 2015</p>
-            <p class="label"><b>Platforms:</b> Android, iOS, Amazon Fire</p>
-            <p class="summary">Lorem ipsum bla jaklsdj alksjd alksjdl kajsdlka jsd aklsjdlk ajsdlkja slkdjalksdj</p>
-            <div class="links">
-              <i class="fa fa-play-circle fa-2"></i><a class="link" href="http://satanas.github.io/please-die" alt="Play it" target="_blank">Play it</a>
-              <i class="fa fa-github fa-2"></i><a class="link" href="https://github.com/satanas/please-die" alt="Source code" target="_blank">Source code</a>
-              <i class="fa fa-file-zip-o fa-2"></i><a class="link" href="https://github.com/satanas/please-die/blob/master/min/please-die-js13k-2015.zip" alt="Zip file" target="_blank">Zip file</a>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/pandemia_thumb.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4>Pandemia</h4>
+                  <p class="card-text">You have to come through hordes of zombies in order to deliver a vaccine to a safe zone and stop the infection, saving the human race.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/prison_break_thumb.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <h4>Prison Escape</h4>
+                  <p class="card-text">A glitch in a prison complex could be something terrible, and it's up to you to take advantage of those glitches to escape. </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/neutrino_thumb.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <h4>Neutrino</h4>
+                  <p class="card-text">Tap to shoot the neutrino and destroy the atom without hitting the electrons that orbit around the code. If you hit one electron you'll die. </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/please_die_thumb.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <h4>Please, die</h4>
+                  <p class="card-text">This is not the typical platformer. Things are kind of reversed here, so you have to help our little character with a very simple task: to die.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/octocoder_thumb.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <h4>Octocoder</h4>
+                  <p class="card-text">Collect code blocks and deploy them into applications. Combine the blocks to build popular applications and earn lots of points.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/infectors_thumb.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <h4>Infectors</h4>
+                  <p class="card-text">A game where you have to solve puzzles pushing cryogenic capsules toward viruses to capture them and save the earth from the invasion.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
-        <div class="item">
-          <h2>Bleh</h2>
-          <img src="http://labs.jensimmons.com/2016/examples/images/uniqueicons/book.png" alt="image of a book">
-          <div class="info">
-            <p class="label">Genre: Casual, tap reaction</p>
-            <p class="label">Released: Dec 30th, 2015</p>
-            <p class="label">Platforms: Android, iOS, Amazon Fire</p>
-            <p class="summary">Lorem ipsum bla jaklsdj alksjd alksjdl kajsdlka jsd aklsjdlk ajsdlkja slkdjalksdj</p>
-            <div class="links">
-              <i class="fa fa-play-circle fa-2"></i><a class="link" href="http://satanas.github.io/please-die" alt="Play it" target="_blank">Play it</a>
-              <i class="fa fa-github fa-2"></i><a class="link" href="https://github.com/satanas/please-die" alt="Source code" target="_blank">Source code</a>
-              <i class="fa fa-file-zip-o fa-2"></i><a class="link" href="https://github.com/satanas/please-die/blob/master/min/please-die-js13k-2015.zip" alt="Zip file" target="_blank">Zip file</a>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
 
-    <footer>
-      <p>© Wil Alvarez 2018. App Store is a service mark of Apple, Inc. Android, Google Play and the Google Play logo are trademarks of Google Inc.</p>
-      <img src="flames.svg" />
+    <footer class="text-muted">
+      <div class="ez-color">
+        <img alt="flames" class="img-fluid ez_flames" src="images/flames.svg" />
+        <img alt="monsters" class="img-fluid ez_footer" src="images/monsters.png" />
+      </div>
+
+      <div class="container ez_credit">
+        <p class="float-right">
+          <a class="ez_back" href="#">Back to top</a>
+        </p>
+          <p>&copy; Wil Alvarez 2018.</p>
+          <p>App Store is a service mark of Apple, Inc. Android, Google Play and the Google Play logo are trademarks of Google Inc.</p>
+      </div>
     </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/holder.min.js"></script>
 
   </body>
 </html>

@@ -1,0 +1,167 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*--A partir de aqui van mis styles--*/
+
+body {
+    background-color: black;
+}
+.jumbotron {
+    background-color: black;
+}
+.ez_header {
+    margin-top: 40px;
+    text-align: center;
+}
+.ezlogo {
+    width: 60%;
+}
+
+.ez_footer {
+    z-index: 20;
+    margin-top: -19%; 
+    
+}
+.ez-color {
+
+background: rgba(0,0,0,1);
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(24%, rgba(0,0,0,1)), color-stop(60%, rgba(79,20,20,1)), color-stop(100%, rgba(120,57,43,1)));
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#78392b', GradientType=0 );
+
+}
+.ez_credit {
+    margin-top: -20px;
+    
+    border-color: black;
+    border-style: solid;
+    border-width: 20px 0px 0px 0px;
+}
+/*
+.ez_flames (
+    padding-bottom: 50px;
+)
+*/
+
+/*--Estilos modificados de bootstrap--*/
+.bg-dark {
+    background: linear-gradient(#000000, #161616);
+}
+.navbar-dark .navbar-brand {
+    color: #4a4848;
+}
+.card {
+        border: 1px solid #3c434a;
+}
+
+.subscribe {
+    padding-top: 50px;
+}
+.ez_text-muted {
+    color: #3c434a;
+}
+.ez_back {
+    color: #860700;
+}
+.ez_back:hover {
+    color: #e9271b;
+}
+
+}
+/*-------------------form---------------------------*/
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  border: none;
+  height: 100px;
+  padding: 0 13.5px;
+  min-width: 15em;
+  outline: none;
+  padding: .375rem .75rem;
+}
+form input[type="submit"] {
+  background-color: transparent;
+}
+form input[type="email"] + input[type="submit"] {
+  margin-left: 13.5px;
+}
+
+input {
+    padding: 1px 20px;
+    border-style: none;
+    border-radius: .25rem;
+    height: 54px;
+    width: 260px;
+}
+.btn {
+  border: 1px solid #860700;
+  display: inline-block;
+  height: 54px;
+  width: 260px;
+  min-width: 10em;
+  padding: .7em 1em;
+  color: #860700;
+  background-color: transparent;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+    margin-left: 20px;
+}
+.btn:hover {
+  background-color: #860700;
+  color: #fff;
+  text-decoration: none;
+}
+/*-------------------Media Queries---------------------------*/
+
+@media (max-width: 768px) { 
+    .btn {
+        margin-left: 0px;
+    }
+
+}
