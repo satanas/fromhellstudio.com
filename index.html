@@ -14,66 +14,84 @@
 
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4851218-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-4851218-6');
+    </script>
   </head>
 
   <body>
-
-    <header>
-      <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
-              <p class="text-muted">I'm a software engineer. I make games and also build software.</p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                <li><a href="#" class="text-white">Like on Facebook</a></li>
-                <li><a href="#" class="text-white">Email me</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+    <div class="container">
+      <div class="row">
+        <div class="ez_header"><img alt="logo" class="ezlogo" src="images/logo.png" /></div>
       </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <strong>From Hell Studio</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </header>
-    
-     <div class="container">
-          <div class="row">
-              <div class="ez_header"><img alt="logo" class="ezlogo" src="images/logo.png" /></div>
-          </div>
-      </div>
+    </div>
 
     <main role="main">
-      
-     
 
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Welcome </h1>
-          <p class="lead text-muted">Join us for a ride to explore new things under the shadow of darkness, making games that fulfill dreams and convey a message. Our goal it's not about making hollow and silly games but about combining several ingredients to make games that can help you endure the already-hard life.</p>
-         
-           <section class="subscribe">
-                <p class="ez_text-muted">Subscribe to our mailing list if you want to know more.</p>
-                <input type="text" name="email" placeholder="Enter email address"/>
-                <input class="btn" type="submit" name="subscribe" value="I want to know more!"/>
-            </section>
+      <section class="info">
+        <div class="row">
+          <div class="col-3">
+            <img class="avatar" src="https://www.gravatar.com/avatar/3b311b01a3eab79a08ad035fc457012a?s=120" alt="Avatar">
+          </div>
+
+          <div class="col-9">
+            <p class="text">
+              I'm Wil, and for as long as I can remember I have loved videogames. I started doing games with pen and paper,
+              now I'm starting From Hell Studio to make PC and mobile games with my friends.
+            </p>
+          </div>
         </div>
       </section>
 
-      
+      <section class="info featured">
+        <div class="row">
+          <div class="col-9">
+            <p class="text featured">
+              Our first game will be a sci-fi point-and-click adventure where you must lead
+              the crew of the spaceship Hope in a crucial intergalactic mission.
+            </p>
+          </div>
+
+          <div class="col-3">
+            <img class="avatar" src="images/red-planet.png" alt="Avatar">
+          </div>
+        </div>
+      </section>
+
+
+      <section class="subscribe">
+        <div class="container subscribe-form">
+          <div class="row">
+            <div class="col-sm">
+              <p>
+                Subscribe to our mailing list if you want to know more about Hope and our future games.
+              </p>
+              <p>(It's a low-traffic list, I promise)</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-7">
+              <input class="subscribe-input" type="text" name="email" placeholder="Enter email address"/>
+            </div>
+            <div class="col-sm-12 col-md-5">
+              <input class="subscribe-button" type="submit" name="subscribe" value="I want to know more!"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
         <div class="container">
+          <p class="text-regular text-center text-bla">
+           Below you can see some of my past games.
+          </p>
 
           <div class="row">
             <div class="col-md-4">
@@ -162,11 +180,11 @@
       </div>
 
       <div class="container ez_credit">
-        <p class="float-right">
+        <!-- p class="float-right">
           <a class="ez_back" href="#">Back to top</a>
-        </p>
-          <p>&copy; Wil Alvarez 2018.</p>
-          <p>App Store is a service mark of Apple, Inc. Android, Google Play and the Google Play logo are trademarks of Google Inc.</p>
+        </p -->
+        <p>Copyright &copy; Wil Alvarez 2018. Design by Erick Zabaco</p>
+        <p>App Store is a service mark of Apple, Inc. Android, Google Play and the Google Play logo are trademarks of Google Inc.</p>
       </div>
     </footer>
 
