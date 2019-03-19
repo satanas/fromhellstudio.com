@@ -265,6 +265,9 @@ form input[type="email"] + input[type="submit"] {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  section.info {
+    max-width: 830px;
+  }
   section.info.me img {
     width: 112px;
   }
@@ -274,10 +277,16 @@ form input[type="email"] + input[type="submit"] {
   section.info p.text {
     font-size: 1.10rem;
   }
+  .subscribe-button {
+    margin-top: 0;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  section.info {
+    max-width: 960px;
+  }
   section.info.me img {
     width: 120px;
   }
@@ -286,5 +295,8 @@ form input[type="email"] + input[type="submit"] {
   }
   section.info p.text {
     font-size: 1.15rem;
+  }
+  .subscribe-button {
+    margin-top: 0;
   }
 }
