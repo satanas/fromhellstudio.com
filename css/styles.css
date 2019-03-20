@@ -56,11 +56,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     border-width: 20px 0px 0px 0px;
     text-align: center;
 }
-/*
-.ez_flames (
-    padding-bottom: 50px;
-)
-*/
 
 /*--Estilos modificados de bootstrap--*/
 .bg-dark {
@@ -93,9 +88,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 .text.featured {
   margin-top : 10px;
-}
-.text-bla {
-  margin: 6rem 0 4rem 0;
 }
 section.info {
   padding: 1rem 2rem;
@@ -173,33 +165,6 @@ form input[type="email"] + input[type="submit"] {
     height: 48px;
     width: 100%;
 }
-.subscribe-button{
-  border: 1px solid #860700;
-  display: inline-block;
-  height: 54px;
-  width: 100%;
-  min-width: 10em;
-  border-radius: .25rem;
-  padding: .7em 1em;
-  background-color: #380300;
-  color: #fff;
-  font-weight: bold;
-  font-style: normal;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 0;
-}
-.subscribe-button:hover {
-  color: #fff;
-  background-color: #ca3b33;
-  text-decoration: none;
-}
-.subscribe-button:active {
-  color: #380300;
-  background-color: #ffa500;
-  text-decoration: none;
-}
 
 /*
  * Extra small devices (portrait phones, less than 576px)
@@ -216,9 +181,6 @@ form input[type="email"] + input[type="submit"] {
   }
   section.subscribe {
     padding: 3rem 2rem;
-  }
-  .subscribe-button {
-    margin-top: 15px;
   }
 }
 
@@ -240,9 +202,6 @@ form input[type="email"] + input[type="submit"] {
   section.subscribe {
     padding: 3rem 4rem;
   }
-  .subscribe-button {
-    margin-top: 15px;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -258,9 +217,6 @@ form input[type="email"] + input[type="submit"] {
   }
   section.info p.text {
     font-size: 1.05rem;
-  }
-  .subscribe-button {
-    margin-top: 0;
   }
 }
 
@@ -278,9 +234,6 @@ form input[type="email"] + input[type="submit"] {
   section.info p.text {
     font-size: 1.10rem;
   }
-  .subscribe-button {
-    margin-top: 0;
-  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -296,8 +249,5 @@ form input[type="email"] + input[type="submit"] {
   }
   section.info p.text {
     font-size: 1.15rem;
-  }
-  .subscribe-button {
-    margin-top: 0;
   }
 }
