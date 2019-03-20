@@ -5,64 +5,54 @@
 * {
   font-family: 'Nanum Gothic', sans-serif;
 }
+body {
+  background-color: black;
+}
 footer {
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
-
 footer p {
   margin-bottom: .25rem;
 }
-
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
-body {
-    background-color: black;
-}
-.jumbotron {
-    background-color: black;
-}
 .ez_header {
-    margin: 3rem 0 4rem 0;
-    text-align: center;
+  margin: 3rem 0 4rem 0;
+  text-align: center;
 }
 .ezlogo {
-    width: 60%;
+  width: 60%;
 }
-
 .ez_footer {
-    z-index: 20;
-    margin-top: -19%; 
-    
+  z-index: 20;
+  margin-top: -19%;
 }
 .ez-color {
-
-background: rgba(0,0,0,1);
-background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(24%, rgba(0,0,0,1)), color-stop(60%, rgba(79,20,20,1)), color-stop(100%, rgba(120,57,43,1)));
-background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
-background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
-background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
-background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#78392b', GradientType=0 );
-
+  background: rgba(0,0,0,1);
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(24%, rgba(0,0,0,1)), color-stop(60%, rgba(79,20,20,1)), color-stop(100%, rgba(120,57,43,1)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(79,20,20,1) 60%, rgba(120,57,43,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#78392b', GradientType=0 );
 }
 .ez_credit {
-    margin-top: -20px;
-    color: #696969;
-    font-size: 0.75em;
-    border-color: black;
-    border-style: solid;
-    border-width: 20px 0px 0px 0px;
-    text-align: center;
+  margin-top: -20px;
+  color: #696969;
+  font-size: 0.75em;
+  border-color: black;
+  border-style: solid;
+  border-width: 20px 0px 0px 0px;
+  text-align: center;
 }
 
 /*--Estilos modificados de bootstrap--*/
 .bg-dark {
-    background: linear-gradient(#000000, #161616);
+  background: linear-gradient(#000000, #161616);
 }
 .navbar-dark .navbar-brand {
-    color: #4a4848;
+  color: #4a4848;
 }
 .card {
   border: 1px solid #3c434a;
@@ -79,13 +69,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 .ez_back:hover {
   color: #e9271b;
 }
-.red-section {
-  color: #fff;
-  background-color: #860700;
-  padding: 2em 2em;
-  font-size: 2em;
-}
-
 .text.featured {
   margin-top : 10px;
 }
@@ -134,36 +117,8 @@ div.subscribe-form p.promise {
   font-size: 0.8rem;
   text-align: center;
 }
-/*-------------------form---------------------------*/
-
-
-form input[type="text"],
-form input[type="email"],
-form input[type="password"] {
-  border: none;
-  height: 100px;
-  padding: 0 13.5px;
-  min-width: 15em;
-  outline: none;
-  padding: .375rem .75rem;
-}
-form input[type="submit"] {
-  background-color: transparent;
-}
-form input[type="email"] + input[type="submit"] {
-  margin-left: 13.5px;
-}
-
 .subscribe-form {
   max-width: 750px;
-}
-
-.subscribe-input {
-    padding: 1px 20px;
-    border-style: none;
-    border-radius: .25rem;
-    height: 48px;
-    width: 100%;
 }
 
 /*
