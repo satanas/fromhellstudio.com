@@ -136,6 +136,7 @@ section.subscribe {
 div.subscribe-form p.caption {
   font-size: 1.6rem;
   text-align: center;
+  margin-bottom: 0;
 }
 div.subscribe-form p.promise {
   font-size: 0.8rem;

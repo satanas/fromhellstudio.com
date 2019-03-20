@@ -16,7 +16,6 @@
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
 
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4851218-6"></script>
     <script>
@@ -74,18 +73,18 @@
               <p class="caption">
                 Subscribe to our mailing list if you want to know more about Hope and our future games.
               </p>
-              <p class="promise">(It's a low-traffic list, I promise)</p>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-12 col-md-7">
-              <input class="subscribe-input" type="text" name="email" placeholder="Enter email address"/>
-            </div>
-            <div class="col-12 col-md-5">
-              <input class="subscribe-button" type="submit" name="subscribe" value="I want to know more!"/>
+            <div class="col-12">
+              <div class="ml-form-embed"
+                data-account="1037142:i2k6e6p7v2"
+                data-form="959576:o6p8e8">
+              </div>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -106,14 +105,17 @@
       </div>
     </footer>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script src="js/holder.min.js"></script>
+    <!-- MailerLite Universal -->
+    <script>
+      (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+      var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+      f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+      var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+      _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+      var ml_account = ml('accounts', '1037142', 'i2k6e6p7v2', 'load');
+    </script>
+    <!-- End MailerLite Universal -->
 
   </body>
 </html>
