@@ -105,7 +105,7 @@ section.info.featured div.col-9 {
 }
 section.subscribe {
   color: #fff;
-  background-color: #860300;
+  background-color: #940300; /*#860300;*/
   padding: 4rem 7rem;
 }
 div.subscribe-form p.caption {
