@@ -81,7 +81,7 @@ section.info {
 section.info img {
   border-radius: 50%;
 }
-section.info.me img {
+section.info.profile img {
   width: 92px;
 }
 section.info.featured img {
@@ -91,11 +91,14 @@ section.info p.text {
   color: #d8d8d8;
   font-size: 0.9rem;
 }
-section.info.me p.text {
+section.info.profile.wil p.text {
   text-align: left;
 }
-section.info.featured p.text {
+section.info.profile.azrael p.text {
   text-align: right;
+}
+section.info.featured p.text {
+  text-align: center;
 }
 section.info.featured {
   margin-bottom: 2rem;
@@ -127,7 +130,7 @@ div.subscribe-form p.promise {
  */
 
 @media (max-width: 575.98px) {
-  section.info.me p.text {
+  section.info.profile p.text {
     margin-top: 1.3rem;
     text-align: center;
   }
@@ -145,7 +148,7 @@ div.subscribe-form p.promise {
   section.info {
     max-width: 570px;
   }
-  section.info.me img {
+  section.info.profile img {
     width: 96px;
   }
   section.info.featured img {
@@ -164,7 +167,7 @@ div.subscribe-form p.promise {
   section.info {
     max-width: 680px;
   }
-  section.info.me img {
+  section.info.profile img {
     width: 104px;
   }
   section.info.featured img {
@@ -180,7 +183,7 @@ div.subscribe-form p.promise {
   section.info {
     max-width: 830px;
   }
-  section.info.me img {
+  section.info.profile img {
     width: 112px;
   }
   section.info.featured img {
@@ -196,7 +199,7 @@ div.subscribe-form p.promise {
   section.info {
     max-width: 960px;
   }
-  section.info.me img {
+  section.info.profile img {
     width: 120px;
   }
   section.info.featured img {
